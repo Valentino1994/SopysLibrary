@@ -1,0 +1,55 @@
+$font-kopub: 'KoPub Batang';
+
+.bookmake-content {
+  font-family: $font-kopub;
+  .page-navi {
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 90vw;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    .prevBtn {
+      cursor: pointer;
+    }
+    .nextBtn {
+      cursor: pointer;
+    }
+    img {
+      width: 3vw;
+      height: 10vh;
+    }
+  }
+
+  section {
+    width: 100%;
+    height: 100vh;
+    h2 {
+      position: relative;
+      top: 5%;
+      left: 3%;
+      padding-bottom: 5px;
+      margin: 0;
+      border-bottom: 4px solid;
+      width: 22%;
+      font-size: 2rem;
+    }
+    img {
+      z-index: -1;
+      position: relative;
+      top: 45%;
+      width: 100%;
+      height: 40vh;
+    }
+  }
+}
+.root{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+

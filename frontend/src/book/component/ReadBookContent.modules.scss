@@ -1,0 +1,51 @@
+.read-container {
+    font-family: 'Godo';
+    height: 70vh;
+    background-color: #FCDECF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(66, 66, 66);
+    .read-content{
+        position: absolute;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px rgb(66, 66, 66);
+        background-color: white;
+        height: 55vh;
+        width: 95%;
+        left: 2.5%;
+        top: 5%;
+        display: flex;
+        align-items: center;
+        .vertical-line{
+            border: 2px solid black;
+            width: 0;
+            height: 40vh;
+            float: right;
+        }
+        .read-text{
+            padding-left: 2vw;
+        }
+    }
+    .read-page{
+        position: absolute;
+        bottom: 20%;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .prevBtn{
+            position: inherit;
+            left: 40%;
+            cursor: pointer;
+        }
+        .nextBtn{
+            position: inherit;
+            right: 40%;
+            cursor: pointer;
+        }
+        img{
+            width: 1vw;
+        }
+        .page{
+            margin: 0 auto;
+        }        
+    }
+}
